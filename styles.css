@@ -133,6 +133,7 @@ svg:hover {
 /*** MEDIA QUERY ***/
 @media only screen and (max-width: 480px) and (min-width: 320px) {
 	body {
+		margin: 0;
 		padding: 2rem 1.5rem;
 	}
 	
@@ -154,10 +155,12 @@ svg:hover {
 	.subscribe {
 		display: flex;
 		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	#email, #button {
-		width: 23rem;
+		width: 18rem;
 	}
 	
 	#button {
@@ -171,9 +174,11 @@ svg:hover {
 	}
 	
 	.img-dashboard {
-		width: 25rem;
+		width: 18rem;
 		margin-top: 5rem;
 		margin-bottom: 10rem;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	.copyright {
