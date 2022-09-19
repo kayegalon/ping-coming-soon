@@ -131,9 +131,9 @@ svg:hover {
 }
 
 /*** MEDIA QUERY ***/
-@media screen and (max-width: 480px) and (min-width: 320px) {
+@media only screen and (max-width: 480px) and (min-width: 320px) {
 	body {
-		padding: 2rem 1rem;
+		padding: 2rem 1.5rem;
 	}
 	
 	.img-logo {
